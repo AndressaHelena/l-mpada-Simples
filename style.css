@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Rampart+One&display=swap');
+
+header, main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+font-family: 'Mochiy Pop One', sans-serif;
+font-family: 'Rampart One', cursive;
+color:grey;
+font-size: 3em;
+}
+
+.ligaDesliga{
+    width: 7.5em;
+    height: 3em;
+    display: flex;
+   justify-content:space-around;
+
+}
+
+button{
+    width: 4em;
+    height: 3em;
+    border-radius: 10px;
+    color: white;
+    font-weight: 900;
+}
+
+#ligar{
+    background-color: #4cd137;
+}
+
+#desligar{
+    background-color: #eb2f06;
+}
